@@ -1,4 +1,4 @@
-//Weight and Age of me on Mars
+//Weight and Age of mine on Mars
 package main
 
 import (
