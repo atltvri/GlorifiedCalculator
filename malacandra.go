@@ -8,9 +8,11 @@ import (
 )
 
 func main() {
-	const timeInDays = 23
+	const timeInDays = 28
 	const hourInDay = 24
-	const speed = 10800
-	const distance = speed * (timeInDays * hourInDay)
-	fmt.Println("Distance: ", distance)
+	const hourIn28Days=24*28
+	const distance=56000000
+	const speed = distance/hourIn28Days
+	
+	fmt.Println(speed,"km/h")
 }
